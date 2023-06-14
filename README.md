@@ -1,9 +1,6 @@
 # news-bulletin
 
-[](/usage.png)
-
-````
-# news-bulletin
+![](usage.png)
 
 news-bulletin is a Python script that allows you to quickly access short news headlines and summaries directly from your command line interface (CLI). It fetches the latest news from various sources and presents them in a concise format, making it convenient for users to stay updated with the latest news without leaving the terminal.
 
@@ -24,7 +21,7 @@ news-bulletin is a Python script that allows you to quickly access short news he
 
    ```shell
    git clone https://github.com/Saif-Shines/news-bulletin.git
-````
+   ```
 
 2. Install the required dependencies using pip:
 
@@ -35,7 +32,7 @@ news-bulletin is a Python script that allows you to quickly access short news he
 3. Run the script to start fetching news:
 
    ```shell
-   python news_cli.py
+   python app.py
    ```
 
 ## Usage
@@ -53,7 +50,7 @@ NEWS_API_KEY="api-key"
 ```
 
 ```sh
-python3 news_cli.py "Your Query"
+python3 app.py "Your Query"
 ```
 
 ## Configuration
@@ -71,7 +68,3 @@ This project is licensed under the [MIT License](LICENSE). You are free to use, 
 ## Acknowledgements
 
 The script uses the [NewsAPI](https://newsapi.org/) service to fetch news data. Special thanks to the developers and contributors of the NewsAPI project.
-
-```
-
-```
