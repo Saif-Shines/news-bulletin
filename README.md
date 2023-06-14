@@ -1,5 +1,7 @@
 # news-bulletin
 
+[](/usage.png)
+
 ````
 # news-bulletin
 
@@ -50,6 +52,10 @@ NEWS_API_KEY="api-key"
 # from https://newsapi.org/docs/endpoints/everything
 ```
 
+```sh
+python3 news_cli.py "Your Query"
+```
+
 ## Configuration
 
 The script uses a configuration file (`config.json`) to manage news sources and categories. By default, it includes popular news sources and general news categories. You can modify this file to customize the sources and categories according to your preferences.
@@ -65,5 +71,7 @@ This project is licensed under the [MIT License](LICENSE). You are free to use, 
 ## Acknowledgements
 
 The script uses the [NewsAPI](https://newsapi.org/) service to fetch news data. Special thanks to the developers and contributors of the NewsAPI project.
+
+```
 
 ```
